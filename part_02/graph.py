@@ -1,7 +1,7 @@
 # G = (V, E)
 from collections import namedtuple
 
-Graph = namedtuple("Graph", ["nodes", "edges", "id_directed"])
+Graph = namedtuple("Graph", ["nodes", "edges", "is_directed"])
 
 
 def adjacency_dict(graph):
